@@ -1,0 +1,52 @@
+{
+    "1":{
+    "sentence": "The moms and dads all sat around drinking coffee and eating donuts.",
+    "sentenceWithGap": "Die Mütter und Väter saßen alle herum, tranken __________ und assen Donuts.",
+    "correct": "Kaffee"
+  },
+    "2":{
+    "sentence": "Tom has a pain in his big toe on his right foot.",
+    "sentenceWithGap": "Tom hat __________ in seinem großen Zeh am rechten Fuss.",
+    "correct": "Schmerzen"
+  },
+    "3":{
+    "sentence": "Glass is better than plastic for nice dinners.",
+    "sentenceWithGap": "Glas ist besser als Plastik für schöne __________.",
+    "correct": "Abendessen"
+  },
+    "4":{
+    "sentence": "Our teacher often overlooked his name on the list.",
+    "sentenceWithGap": "Unser __________ hat seinen Namen auf der Liste oft übersehen.",
+    "correct": "Lehrer"
+  },
+    "5":{
+    "sentence": "Coffee has great foam in it if it is made right.",
+    "sentenceWithGap": "Kaffee hat viel __________, wenn er richtig zubereitet ist.",
+    "correct": "Schaum"
+  },
+    "6":{
+    "sentence": "This carpet is big enough to cover the whole floor.",
+    "sentenceWithGap": "Dieser Teppich ist gross __________, um den gesamten Boden zu bedecken.",
+    "correct": "genug"
+  },
+    "7":{
+    "sentence": "Tom recognized three of the names on the list.",
+    "sentenceWithGap": "Tom __________ drei der Namen auf der Liste.",
+    "correct": "erkannte"
+  },
+    "8":{
+    "sentence": "The clock was ticking and kept me awake all night.",
+    "sentenceWithGap": "Die Uhr tickte und hielt mich die ganze Nacht __________.",
+    "correct": "wach"
+  },
+    "9":{
+    "sentence": "You say this after someone fails, and you hope they do better next time.",
+    "sentenceWithGap": "Das sagt man, nachdem __________ versagt, und man hofft, dass er es beim nächsten Mal besser macht.",
+    "correct": "jemand"
+  },
+    "10":{
+    "sentence": "I want to learn all the words on this list by the end of July.",
+    "sentenceWithGap": "Ich möchte bis Ende Juli alle __________ auf dieser Liste lernen.",
+    "correct": "Wörter"
+  }
+}
