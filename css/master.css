@@ -72,3 +72,16 @@ input[type=submit]{
   width: 150px;
   font-size: 20px;
 }
+
+input[type=text]{
+  background: transparent;
+  border: 0px solid black;
+  border-bottom: 2px solid black;
+  font-size: 18px;
+}
+
+input[type=text]:focus{
+  outline: none;
+  font-size: 18px;
+  background-color: rgba(255, 187, 0, 0.3);
+}

@@ -17,12 +17,14 @@
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
     <div class="content">
-      <h1> Satz <?php echo (empty($_POST['num']) !== true)?($_POST['num']."/10"):""; ?></h1>
+      <?php
+      $content = file_get_contents("data/data.json"); //Nimmt die Datei und ladet sie in die Variable content
+      $data = json_decode($content, true); //dekodiert die Datei, zu einem Array
+       ?>
+      <h1> Satz <?php echo (empty($_POST['num']) !== true)?($_POST['num']."/".count($data)):""; ?></h1>
       <?php
       if(empty($_POST['answer']) !== true){ //Überprüft, ob eine Antwort eingegeben wurde.
         if((isset($_POST['btn'])) && ($_POST['answer'] != "")){ //Führt den Code nur aus, wenn auf den Button gedruckt wird.
-          $content = file_get_contents("data/data.json"); //Nimmt die Datei und ladet sie in die Variable content
-          $data = json_decode($content, true); //dekodiert die Datei, zu einem Array
           $i = $_POST['num'];
           $answer = $_POST['answer'];
           $correct = $data[$i]['correct']; //nimmt die Lösung, für den aktuellen Satz
